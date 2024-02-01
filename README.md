@@ -1,4 +1,4 @@
-# AWS-LoadBalancer
+# Implementing a Load Balancer within AWS Cloud
 The following is a guide to adding a load balancer to Amazon EC2 instances.
 
 The idea is that you have incoming traffic from multiple users and, rather than straining the load of a single instance, you would like to spread the traffic across multiple instance. An added benefit for using a load balancer is you do not have to display your assets (instances) to the public. Instead, clients will connect to the publicly exposed load balancer, which will automatically direct traffic to your assets evenly and in the background.
